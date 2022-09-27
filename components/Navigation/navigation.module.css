@@ -1,0 +1,11 @@
+.navigation {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  text-transform: uppercase;
+}
