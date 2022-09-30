@@ -9,4 +9,4 @@ Then run npm run dev or yarn dev;
 #####
 Open [http://localhost:3000]
 
-## Keep in mind that it might not look the greatest on anything but desktop.
+Keep in mind that it might not look the greatest on anything but desktop.
