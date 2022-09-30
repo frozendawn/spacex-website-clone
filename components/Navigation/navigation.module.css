@@ -1,11 +1,39 @@
-.navigation {
-  height: 100%;
+.nav-list {
   display: flex;
-  align-items: center;
 }
 
-.list {
+.nav-list li {
   list-style: none;
-  display: flex;
-  text-transform: uppercase;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  margin: 0 16px;
+  font-weight: 500;
+  color: inherit;
+  position: relative;
+}
+
+.nav-list li a::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  height: 1px;
+  transform: scaleX(0);
+  transform-origin: right ;
+  transition: transform 0.6s;
+}
+
+.nav-list li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+@media all and (max-width: 960px) {
+  .nav-list {
+    display:none;
+  }
 }

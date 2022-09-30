@@ -1,12 +1,9 @@
-import Link from 'next/link'
-import Image from 'next/image'
-import styles from './navigation.module.css'
+import Link from "next/link";
+import styles from "./navigation.module.css";
 
 const Navigation = () => {
   return (
-    <div className={styles.navigation}>
-      <Image src="/images/logo.svg" alt='spaceX logo' width={300} height={260}/>
-      <ul className={styles.list}>
+      <ul className={styles["nav-list"]}>
         <li>
           <Link href="#">falcon 9</Link>
         </li>
@@ -29,8 +26,7 @@ const Navigation = () => {
           <Link href="#">starlink</Link>
         </li>
       </ul>
-    </div>
-  )
-}
+  );
+};
 
 export default Navigation;

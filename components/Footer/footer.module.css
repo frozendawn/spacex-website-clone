@@ -1,0 +1,36 @@
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  text-transform: uppercase;
+  font-family: 'D-DIN Bold';
+  font-weight: 400;
+  color: #fff;
+  background-color: #000;
+  font-size: 12px;
+}
+
+.footer-navigation {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+
+
+.footer-navigation li a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 300ms;
+}
+
+.footer-navigation li a:hover,.footer-navigation li a:focus {
+  color: #979797;
+}
+
+.footer-navigation li span {
+  font-family: D-DIN;
+  font-size: 12;
+  color: #979797;
+}
