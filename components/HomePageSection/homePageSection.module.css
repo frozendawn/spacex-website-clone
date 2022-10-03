@@ -24,7 +24,6 @@
   left: 22%;
   bottom: 15%;
   max-width: 520px;
-  /* animation: sectionContentFadeUp 5s; */
 }
 
 .section-content-left h4, .section-content-left h2{
@@ -47,8 +46,10 @@
   position: relative;
   z-index: 1;
   transition: color 300ms ease-in-out;
+}
+
+.triggerAnimation {
   animation: sectionContentFadeUp 1s;
-  animation-delay: 0.6s;
   animation-fill-mode: both;
 }
 

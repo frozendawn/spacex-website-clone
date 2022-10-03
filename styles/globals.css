@@ -36,8 +36,6 @@ section h4 {
   font-weight: 400;
   line-height: 20px;
   margin: 0;
-  animation: sectionContentFadeUp 1s;
-
 }
 
 section h2 {
@@ -46,9 +44,6 @@ section h2 {
   font-weight: 400;
   line-height: 48px;
   margin: 0;
-  animation: sectionContentFadeUp 1s;
-  animation-delay: 0.3s;
-  animation-fill-mode: both;
 }
 
 @keyframes sectionContentFadeUp {
